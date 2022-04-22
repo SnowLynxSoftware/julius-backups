@@ -1,9 +1,9 @@
 package main
 
 import (
-	"log"
+	"main/cmd"
 )
 
 func main() {
-	log.Println("Hello World!")
+	cmd.Execute()
 }
